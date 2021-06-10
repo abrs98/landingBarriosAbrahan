@@ -1,0 +1,73 @@
+/* La siguiente regla de estilo hace que los 
+   hipervínculos no visitados, clasificados como
+   "nav" se desplieguen en azul y en negritas */
+   a.nav:link {
+    font-weight: bold;
+}
+
+/* La siguiente regla de estilo hace que los 
+   hipervínculos visitados, clasificados como
+   "nav" se desplieguen en purpura y en negritas */
+nav.visited {
+    font-weight: bold;
+    background-color: bisque;
+}
+
+h2.a{
+    float: right;
+    align-content: right;
+    vertical-align: top;
+}
+img.float_left{
+
+    float: left;
+    align-content: left;
+    vertical-align: top;
+
+}
+
+img.float_right {
+
+    float: right;
+    align-content: center;
+    vertical-align: top;
+}
+
+
+nav.color{
+    background-color: bisque;
+    
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+div.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+  }
+
+div.myDiv2 {
+    border: 5px outset purple;
+    background-color: cadetblue;
+    text-align: center;
+  }
+
+div.myDiv3 {
+    border: 5px outset blue;
+    background-color: darkgoldenrod;
+    text-align: center;
+  }
+
+  div.myDiv4 {
+    border: 5px outset green;
+    background-color: cyan;
+    text-align: center;
+  }
+
+  div.myDiv5 {
+    border: 15px inset green;
+    background-color: cyan;
+  }
